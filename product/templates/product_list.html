@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        {% for vegetable in all_vegetables %}
+            <div>
+                Name: {{ vegetable.name }} <br>
+                Calories: {{ vegetable.calories }} <br>
+                Description:  {{ vegetable.description }} <br>
+                <hr>
+            </div>
+        {% endfor %}
+    </body>
+</html>
